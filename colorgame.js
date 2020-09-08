@@ -3,8 +3,6 @@ console.log("connected");
 var numSquares = 6;
 var colors = generateRandomColors(numSquares);
 
-
-
 var squares = document.querySelectorAll(".square");
 var colorGoal = pickRandomColor();
 var rightWrong = document.querySelector("#rorw");
@@ -112,6 +110,9 @@ spancolor.innerHTML = colorGoal;
 
 // })
 
+
+
+
 var newColors = document.querySelector("#newColors");
 
 newColors.addEventListener("click", function(){
@@ -173,3 +174,6 @@ function randomColor(){
 	return "rgb(" + r + ", " + g + ", " + b + ")";
 
 }
+
+
+
